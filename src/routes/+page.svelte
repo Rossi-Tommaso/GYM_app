@@ -42,7 +42,7 @@
     .welcome {
         margin-left: 2vw;
         font-size: 2.5em;
-        color: #0c1618;
+        color: var(--second-color);
     }
 
     .blocks-container {
@@ -50,7 +50,7 @@
         justify-self: center;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        width: 75%;
+        width: 72.5%;
         aspect-ratio: 18/9;
         gap: 1.5vw;
     }
@@ -58,8 +58,8 @@
     .section {
         display: flex;
         flex-direction: column;
-        background-color: rgba(70, 19, 2, 0.1);
-        border-radius: 12px;
+        background-color: var(--fourth-color);
+        border-radius: 1vw;
         padding: 1.5rem;
         justify-content: space-evenly;
         transition: transform 0.3s ease;
@@ -72,19 +72,19 @@
     .section h2 {
         font-size: 1.5rem;
         margin-bottom: 0.5rem;
-        color: #0c1618;
+        color: var(--second-color);
     }
 
     .section p {
         font-size: 1rem;
-        color: #462418;
+        color: var(--third-color);
     }
 
     .section a {
         margin-top: 1rem;
         padding: 0.7rem 1.5rem;
-        background-color: #6B2B06;
-        color: #F4D6CC;
+        background-color: var(--third-color);
+        color: var(--first-color);
         text-decoration: none;
         border: none;
         border-radius: 8px;
@@ -94,8 +94,8 @@
     }
 
     .section a:hover {
-        color: #6B2B06;
-        background-color: #F4D6CC;
+        color: var(--third-color);
+        background-color: var(--first-color);
         transform: scale(1.01);
     }
 </style>
