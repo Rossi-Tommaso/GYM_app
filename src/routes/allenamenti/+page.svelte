@@ -1,6 +1,5 @@
 <script>
     import AllenamentiTable from "../../components/allenamenti_components/allenamentiTable.svelte";
-    import aggiungiAllenamento from "../../components/allenamenti_components/aggiungiAllenamento.svelte";
     import AggiungiAllenamento from "../../components/allenamenti_components/aggiungiAllenamento.svelte";
 </script>
 
@@ -48,6 +47,14 @@
 
     :global(button:hover) {
         transform: scale(1.0125);
+    }
+
+    :global(.popup) {
+        width: 80%;
+        max-height: 80%;
+        padding: 2rem;
+        background-color: var(--first-color);
+        border-radius: 1vw;
     }
 
     .container {

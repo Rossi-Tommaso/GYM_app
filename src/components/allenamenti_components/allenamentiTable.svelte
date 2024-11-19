@@ -69,14 +69,6 @@
         transform: scale(1.05);
     }
 
-    .popup {
-        width: 80%;
-        max-height: 80%;
-        padding: 2rem;
-        background-color: var(--first-color);
-        border-radius: 1vw;
-    }
-
     .popup table {
         width: 100%;
         border-collapse: collapse;
